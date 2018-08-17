@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		A1BD852D2126C94B008C812C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD852C2126C94B008C812C /* AppDelegate.swift */; };
 		A1BD852F2126C94B008C812C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1BD852E2126C94B008C812C /* GameScene.sks */; };
-		A1BD85312126C94B008C812C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1BD85302126C94B008C812C /* Actions.sks */; };
 		A1BD85332126C94B008C812C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD85322126C94B008C812C /* GameScene.swift */; };
 		A1BD85352126C94B008C812C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD85342126C94B008C812C /* GameViewController.swift */; };
 		A1BD85382126C94B008C812C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD85362126C94B008C812C /* Main.storyboard */; };
 		A1BD853A2126C94D008C812C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BD85392126C94D008C812C /* Assets.xcassets */; };
 		A1BD853D2126C94D008C812C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD853B2126C94D008C812C /* LaunchScreen.storyboard */; };
+		A1BD85452126E23B008C812C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD85442126E23B008C812C /* Helper.swift */; };
+		A1BD8547212701A5008C812C /* GameMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1BD8546212701A5008C812C /* GameMenu.sks */; };
+		A1BD8549212701C1008C812C /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD8548212701C1008C812C /* GameMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1BD85292126C94B008C812C /* Changing Lanes Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Changing Lanes Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BD852C2126C94B008C812C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BD852E2126C94B008C812C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A1BD85302126C94B008C812C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A1BD85322126C94B008C812C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A1BD85342126C94B008C812C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A1BD85372126C94B008C812C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1BD85392126C94D008C812C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BD853C2126C94D008C812C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BD853E2126C94D008C812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BD85442126E23B008C812C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A1BD8546212701A5008C812C /* GameMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMenu.sks; sourceTree = "<group>"; };
+		A1BD8548212701C1008C812C /* GameMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +66,15 @@
 			children = (
 				A1BD852C2126C94B008C812C /* AppDelegate.swift */,
 				A1BD852E2126C94B008C812C /* GameScene.sks */,
-				A1BD85302126C94B008C812C /* Actions.sks */,
 				A1BD85322126C94B008C812C /* GameScene.swift */,
 				A1BD85342126C94B008C812C /* GameViewController.swift */,
 				A1BD85362126C94B008C812C /* Main.storyboard */,
 				A1BD85392126C94D008C812C /* Assets.xcassets */,
 				A1BD853B2126C94D008C812C /* LaunchScreen.storyboard */,
 				A1BD853E2126C94D008C812C /* Info.plist */,
+				A1BD85442126E23B008C812C /* Helper.swift */,
+				A1BD8546212701A5008C812C /* GameMenu.sks */,
+				A1BD8548212701C1008C812C /* GameMenu.swift */,
 			);
 			path = "Changing Lanes Challenge";
 			sourceTree = "<group>";
@@ -131,11 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BD8547212701A5008C812C /* GameMenu.sks in Resources */,
 				A1BD85382126C94B008C812C /* Main.storyboard in Resources */,
 				A1BD852F2126C94B008C812C /* GameScene.sks in Resources */,
 				A1BD853A2126C94D008C812C /* Assets.xcassets in Resources */,
 				A1BD853D2126C94D008C812C /* LaunchScreen.storyboard in Resources */,
-				A1BD85312126C94B008C812C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BD85332126C94B008C812C /* GameScene.swift in Sources */,
+				A1BD8549212701C1008C812C /* GameMenu.swift in Sources */,
 				A1BD85352126C94B008C812C /* GameViewController.swift in Sources */,
 				A1BD852D2126C94B008C812C /* AppDelegate.swift in Sources */,
+				A1BD85452126E23B008C812C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Andy-Gray.Changing-Lanes-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Andy-Gray.Changing-Lanes-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
