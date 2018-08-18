@@ -42,6 +42,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var scoreText = SKLabelNode()
     
+    
+    // Setting up the high score and linking to the settings class
+    var gameSettings = Settings.sharedInstance
+    
     override func didMove(to view: SKView)
     {
        
@@ -60,6 +64,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         Timer.scheduledTimer(timeInterval: TimeInterval(0.5), target: self, selector: #selector(GameScene.removeItems), userInfo: nil, repeats: true)
         
         let deadTime = DispatchTime.now() + 1
+        
         DispatchQueue.main.asyncAfter(deadline: deadTime) {
             
             Timer.scheduledTimer(timeInterval: TimeInterval(1), target: self, selector: #selector(GameScene.increaseScore), userInfo: nil, repeats: true)
@@ -88,9 +93,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func didBegin(_ contact: SKPhysicsContact)
     {
+        
         var firstBody = SKPhysicsBody()
         var secondBody = SKPhysicsBody()
         
+        
+        // Checking for collisions
         if contact.bodyA.node?.name == "leftCar" || contact.bodyA.node?.name == "rightCar"
         {
             
@@ -106,6 +114,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
         }
         
+        // Removes sprite if collision occurs
         firstBody.node?.removeFromParent()
         
         afterCollision()
@@ -466,9 +475,26 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func afterCollision()
     {
         
+        
+        // Updating the high score value
+        if gameSettings.highScore < score
+        {
+            gameSettings.highScore = score
+        }
+        
+        // Plays Google Ad
+        
+        
+        
+        
+        // Returns to main menu
         let menuScene = SKScene(fileNamed: "GameMenu")
         menuScene?.scaleMode = .aspectFill
         view?.presentScene(menuScene!, transition: SKTransition.doorsCloseHorizontal(withDuration: TimeInterval(2)))
+        
+        let controller = self.view?.window?.rootViewController as! GameViewController
+        
+        controller.playAd()
         
     }
     

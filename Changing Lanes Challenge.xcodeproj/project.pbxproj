@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B721EDB6A273F05B60DC59 /* Pods_Changing_Lanes_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FCDF915EE521FE3D4A2480 /* Pods_Changing_Lanes_Challenge.framework */; };
 		A1BD852D2126C94B008C812C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD852C2126C94B008C812C /* AppDelegate.swift */; };
 		A1BD852F2126C94B008C812C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1BD852E2126C94B008C812C /* GameScene.sks */; };
 		A1BD85332126C94B008C812C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD85322126C94B008C812C /* GameScene.swift */; };
@@ -20,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1401CCE95FBA76082103AE1B /* Pods-Changing Lanes Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Changing Lanes Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Changing Lanes Challenge/Pods-Changing Lanes Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		18FCDF915EE521FE3D4A2480 /* Pods_Changing_Lanes_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Changing_Lanes_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C7378D7FE944914D8DDFBB /* Pods-Changing Lanes Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Changing Lanes Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Changing Lanes Challenge/Pods-Changing Lanes Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		A1BD85292126C94B008C812C /* Changing Lanes Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Changing Lanes Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BD852C2126C94B008C812C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BD852E2126C94B008C812C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -39,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B721EDB6A273F05B60DC59 /* Pods_Changing_Lanes_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C91113FD3E0F01657DEA866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FCDF915EE521FE3D4A2480 /* Pods_Changing_Lanes_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D4290C711376713021E5656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41C7378D7FE944914D8DDFBB /* Pods-Changing Lanes Challenge.debug.xcconfig */,
+				1401CCE95FBA76082103AE1B /* Pods-Changing Lanes Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1BD85202126C94B008C812C = {
 			isa = PBXGroup;
 			children = (
 				A1BD852B2126C94B008C812C /* Changing Lanes Challenge */,
 				A1BD852A2126C94B008C812C /* Products */,
+				3D4290C711376713021E5656 /* Pods */,
+				3C91113FD3E0F01657DEA866 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1BD85412126C94D008C812C /* Build configuration list for PBXNativeTarget "Changing Lanes Challenge" */;
 			buildPhases = (
+				5F2A06394397719C4B0F18C5 /* [CP] Check Pods Manifest.lock */,
 				A1BD85252126C94B008C812C /* Sources */,
 				A1BD85262126C94B008C812C /* Frameworks */,
 				A1BD85272126C94B008C812C /* Resources */,
+				C3C18C860AC4FBC6555E80DF /* [CP] Embed Pods Frameworks */,
+				3FD15758C645EF6D50E5174D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +173,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FD15758C645EF6D50E5174D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Changing Lanes Challenge/Pods-Changing Lanes Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2A06394397719C4B0F18C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Changing Lanes Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C18C860AC4FBC6555E80DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Changing Lanes Challenge/Pods-Changing Lanes Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1BD85252126C94B008C812C /* Sources */ = {
@@ -298,6 +376,7 @@
 		};
 		A1BD85422126C94D008C812C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C7378D7FE944914D8DDFBB /* Pods-Changing Lanes Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +395,7 @@
 		};
 		A1BD85432126C94D008C812C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1401CCE95FBA76082103AE1B /* Pods-Changing Lanes Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

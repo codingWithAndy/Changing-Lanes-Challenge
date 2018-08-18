@@ -28,3 +28,19 @@ class Helper: NSObject {
     }
     
 }
+
+class Settings
+{
+    
+    static let sharedInstance = Settings()
+    
+    private init()
+    {
+        
+        
+        
+    }
+    
+    var highScore = 0
+    
+}
