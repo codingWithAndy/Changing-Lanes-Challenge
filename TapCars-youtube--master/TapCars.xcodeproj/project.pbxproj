@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213F34501E378329001EC874 /* GameMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 213F344F1E378329001EC874 /* GameMenu.sks */; };
+		213F34521E37833C001EC874 /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213F34511E37833C001EC874 /* GameMenu.swift */; };
+		21717EBA1E3739EF00E12B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21717EB91E3739EF00E12B2E /* AppDelegate.swift */; };
+		21717EBC1E3739EF00E12B2E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 21717EBB1E3739EF00E12B2E /* GameScene.sks */; };
+		21717EC01E3739EF00E12B2E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21717EBF1E3739EF00E12B2E /* GameScene.swift */; };
+		21717EC21E3739EF00E12B2E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21717EC11E3739EF00E12B2E /* GameViewController.swift */; };
+		21717EC51E3739EF00E12B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21717EC31E3739EF00E12B2E /* Main.storyboard */; };
+		21717EC71E3739EF00E12B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21717EC61E3739EF00E12B2E /* Assets.xcassets */; };
+		21717ECA1E3739EF00E12B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21717EC81E3739EF00E12B2E /* LaunchScreen.storyboard */; };
+		21717ED21E37682100E12B2E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21717ED11E37682100E12B2E /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		213F344F1E378329001EC874 /* GameMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMenu.sks; sourceTree = "<group>"; };
+		213F34511E37833C001EC874 /* GameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenu.swift; sourceTree = "<group>"; };
+		21717EB61E3739EF00E12B2E /* TapCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21717EB91E3739EF00E12B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21717EBB1E3739EF00E12B2E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		21717EBF1E3739EF00E12B2E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		21717EC11E3739EF00E12B2E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		21717EC41E3739EF00E12B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21717EC61E3739EF00E12B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21717EC91E3739EF00E12B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21717ECB1E3739EF00E12B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21717ED11E37682100E12B2E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21717EB31E3739EF00E12B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21717EAD1E3739EF00E12B2E = {
+			isa = PBXGroup;
+			children = (
+				21717EB81E3739EF00E12B2E /* TapCars */,
+				21717EB71E3739EF00E12B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21717EB71E3739EF00E12B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21717EB61E3739EF00E12B2E /* TapCars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21717EB81E3739EF00E12B2E /* TapCars */ = {
+			isa = PBXGroup;
+			children = (
+				21717EB91E3739EF00E12B2E /* AppDelegate.swift */,
+				21717EBB1E3739EF00E12B2E /* GameScene.sks */,
+				213F34511E37833C001EC874 /* GameMenu.swift */,
+				213F344F1E378329001EC874 /* GameMenu.sks */,
+				21717EBF1E3739EF00E12B2E /* GameScene.swift */,
+				21717EC11E3739EF00E12B2E /* GameViewController.swift */,
+				21717ED11E37682100E12B2E /* Helper.swift */,
+				21717EC31E3739EF00E12B2E /* Main.storyboard */,
+				21717EC61E3739EF00E12B2E /* Assets.xcassets */,
+				21717EC81E3739EF00E12B2E /* LaunchScreen.storyboard */,
+				21717ECB1E3739EF00E12B2E /* Info.plist */,
+			);
+			path = TapCars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21717EB51E3739EF00E12B2E /* TapCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21717ECE1E3739EF00E12B2E /* Build configuration list for PBXNativeTarget "TapCars" */;
+			buildPhases = (
+				21717EB21E3739EF00E12B2E /* Sources */,
+				21717EB31E3739EF00E12B2E /* Frameworks */,
+				21717EB41E3739EF00E12B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapCars;
+			productName = TapCars;
+			productReference = 21717EB61E3739EF00E12B2E /* TapCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21717EAE1E3739EF00E12B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "kishan nakum";
+				TargetAttributes = {
+					21717EB51E3739EF00E12B2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D2E64D69SN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 21717EB11E3739EF00E12B2E /* Build configuration list for PBXProject "TapCars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21717EAD1E3739EF00E12B2E;
+			productRefGroup = 21717EB71E3739EF00E12B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21717EB51E3739EF00E12B2E /* TapCars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21717EB41E3739EF00E12B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213F34501E378329001EC874 /* GameMenu.sks in Resources */,
+				21717EC51E3739EF00E12B2E /* Main.storyboard in Resources */,
+				21717EBC1E3739EF00E12B2E /* GameScene.sks in Resources */,
+				21717EC71E3739EF00E12B2E /* Assets.xcassets in Resources */,
+				21717ECA1E3739EF00E12B2E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21717EB21E3739EF00E12B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21717EC01E3739EF00E12B2E /* GameScene.swift in Sources */,
+				213F34521E37833C001EC874 /* GameMenu.swift in Sources */,
+				21717EC21E3739EF00E12B2E /* GameViewController.swift in Sources */,
+				21717EBA1E3739EF00E12B2E /* AppDelegate.swift in Sources */,
+				21717ED21E37682100E12B2E /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21717EC31E3739EF00E12B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21717EC41E3739EF00E12B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21717EC81E3739EF00E12B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21717EC91E3739EF00E12B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21717ECC1E3739EF00E12B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21717ECD1E3739EF00E12B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21717ECF1E3739EF00E12B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2E64D69SN;
+				INFOPLIST_FILE = TapCars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kishan.TapCars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21717ED01E3739EF00E12B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2E64D69SN;
+				INFOPLIST_FILE = TapCars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kishan.TapCars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21717EB11E3739EF00E12B2E /* Build configuration list for PBXProject "TapCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21717ECC1E3739EF00E12B2E /* Debug */,
+				21717ECD1E3739EF00E12B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21717ECE1E3739EF00E12B2E /* Build configuration list for PBXNativeTarget "TapCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21717ECF1E3739EF00E12B2E /* Debug */,
+				21717ED01E3739EF00E12B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21717EAE1E3739EF00E12B2E /* Project object */;
+}

@@ -37,7 +37,9 @@ class GameMenu: SKScene
             {
                 
                 let gameScene = SKScene(fileNamed: "GameScene")
-                gameScene?.scaleMode = .aspectFill
+                //gameScene?.scaleMode = .resizeFill
+                gameScene?.size.height = (self.view?.frame.height)!
+                gameScene?.size.width = (self.view?.frame.width)!
                 view?.presentScene(gameScene!, transition: SKTransition.doorsOpenHorizontal(withDuration: TimeInterval(2)))
                 
             }
